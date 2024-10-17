@@ -1,0 +1,1445 @@
+Run 1/5
+
+Trial 1/10
+Current parameters: {'learning_rate': 0.001, 'batch_size': 32, 'epochs': 200, 'hidden_size1': 64, 'hidden_size2': 16, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 2.7292, Valid Loss: 4.3806
+Train Accuracy: 0.6599, Valid Accuracy: 0.6212
+Epoch [100/200], Train Loss: 1.0874, Valid Loss: 1.9062
+Train Accuracy: 0.5996, Valid Accuracy: 0.6096
+Epoch [150/200], Train Loss: 0.6418, Valid Loss: 0.5783
+Train Accuracy: 0.8366, Valid Accuracy: 0.8223
+Epoch [200/200], Train Loss: 0.5932, Valid Loss: 0.7600
+Train Accuracy: 0.7943, Valid Accuracy: 0.6456
+Sub-trial 2:
+Epoch [50/200], Train Loss: 2.6250, Valid Loss: 3.9847
+Train Accuracy: 0.6596, Valid Accuracy: 0.5668
+Epoch [100/200], Train Loss: 0.8819, Valid Loss: 2.0747
+Train Accuracy: 0.5829, Valid Accuracy: 0.4838
+Epoch [150/200], Train Loss: 0.5957, Valid Loss: 0.6450
+Train Accuracy: 0.8413, Valid Accuracy: 0.7585
+Epoch [200/200], Train Loss: 0.5826, Valid Loss: 0.6877
+Train Accuracy: 0.7709, Valid Accuracy: 0.7486
+Sub-trial 3:
+Epoch [50/200], Train Loss: 2.1256, Valid Loss: 1.5317
+Train Accuracy: 0.7581, Valid Accuracy: 0.6528
+Epoch [100/200], Train Loss: 1.1510, Valid Loss: 1.9083
+Train Accuracy: 0.6431, Valid Accuracy: 0.5281
+Epoch [150/200], Train Loss: 0.6748, Valid Loss: 0.7426
+Train Accuracy: 0.7625, Valid Accuracy: 0.7287
+Epoch [200/200], Train Loss: 0.5931, Valid Loss: 0.6358
+Train Accuracy: 0.7579, Valid Accuracy: 0.7688
+Accuracies: [0.6456430554389954, 0.7486499547958374, 0.7687845826148987]
+Losses: [0.7600194811820984, 0.6876909732818604, 0.6357702016830444]
+Average Accuracy: 0.7210258642832438
+Average Loss: 0.6944935520490011
+New best model by Validation Accuracy! Accuracy: 0.7210
+New best model by Validation Loss! Loss: 0.6945
+
+Trial 2/10
+Current parameters: {'learning_rate': 0.1, 'batch_size': 64, 'epochs': 300, 'hidden_size1': 128, 'hidden_size2': 128, 'hidden_size3': 128, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0558, Valid Loss: 1.0522
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0541, Valid Loss: 1.0503
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0540, Valid Loss: 1.0499
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0552, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0545, Valid Loss: 1.0543
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0549, Valid Loss: 1.0516
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0528, Valid Loss: 1.0541
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0533, Valid Loss: 1.0492
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0542, Valid Loss: 1.0504
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0536, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0556, Valid Loss: 1.0541
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0567, Valid Loss: 1.0572
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0549, Valid Loss: 1.0605
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0542, Valid Loss: 1.0596
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0537, Valid Loss: 1.0505
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0537, Valid Loss: 1.0600
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0536, Valid Loss: 1.0519
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0543, Valid Loss: 1.0652
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0515693426132202, 1.0572038888931274, 1.0651875734329224]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0579869349797566
+
+Trial 3/10
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 16, 'epochs': 300, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 16, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0714, Valid Loss: 1.2830
+Train Accuracy: 0.7396, Valid Accuracy: 0.6698
+Epoch [100/300], Train Loss: 0.7849, Valid Loss: 0.7088
+Train Accuracy: 0.7613, Valid Accuracy: 0.7350
+Epoch [150/300], Train Loss: 0.6626, Valid Loss: 0.6955
+Train Accuracy: 0.7903, Valid Accuracy: 0.7063
+Epoch [200/300], Train Loss: 0.5934, Valid Loss: 0.7860
+Train Accuracy: 0.8151, Valid Accuracy: 0.6999
+Epoch [250/300], Train Loss: 0.5336, Valid Loss: 1.3298
+Train Accuracy: 0.8106, Valid Accuracy: 0.5358
+Epoch [300/300], Train Loss: 0.5140, Valid Loss: 1.0830
+Train Accuracy: 0.8424, Valid Accuracy: 0.6338
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.1310, Valid Loss: 1.5246
+Train Accuracy: 0.7641, Valid Accuracy: 0.4916
+Epoch [100/300], Train Loss: 0.9059, Valid Loss: 2.7653
+Train Accuracy: 0.5856, Valid Accuracy: 0.4930
+Epoch [150/300], Train Loss: 0.7034, Valid Loss: 1.3547
+Train Accuracy: 0.8151, Valid Accuracy: 0.5514
+Epoch [200/300], Train Loss: 0.6148, Valid Loss: 0.8075
+Train Accuracy: 0.7965, Valid Accuracy: 0.7141
+Epoch [250/300], Train Loss: 0.5629, Valid Loss: 0.9126
+Train Accuracy: 0.7994, Valid Accuracy: 0.6848
+Epoch [300/300], Train Loss: 0.5207, Valid Loss: 1.1610
+Train Accuracy: 0.8106, Valid Accuracy: 0.6058
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.3606, Valid Loss: 1.3574
+Train Accuracy: 0.7171, Valid Accuracy: 0.6429
+Epoch [100/300], Train Loss: 1.2228, Valid Loss: 2.7889
+Train Accuracy: 0.5066, Valid Accuracy: 0.4740
+Epoch [150/300], Train Loss: 1.0521, Valid Loss: 1.1279
+Train Accuracy: 0.7977, Valid Accuracy: 0.6457
+Epoch [200/300], Train Loss: 0.7918, Valid Loss: 1.5577
+Train Accuracy: 0.6480, Valid Accuracy: 0.5448
+Epoch [250/300], Train Loss: 0.6749, Valid Loss: 2.3353
+Train Accuracy: 0.6675, Valid Accuracy: 0.3458
+Epoch [300/300], Train Loss: 0.5886, Valid Loss: 0.9635
+Train Accuracy: 0.8232, Valid Accuracy: 0.6755
+Accuracies: [0.6338422894477844, 0.6058403849601746, 0.6755117177963257]
+Losses: [1.0829888582229614, 1.1609950065612793, 0.9634866118431091]
+Average Accuracy: 0.6383981307347616
+Average Loss: 1.06915682554245
+
+Trial 4/10
+Current parameters: {'learning_rate': 0.1, 'batch_size': 64, 'epochs': 300, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 16, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0531, Valid Loss: 1.0506
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0542, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0565, Valid Loss: 1.0500
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0537, Valid Loss: 1.0523
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0533, Valid Loss: 1.0527
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0546, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0565, Valid Loss: 1.0538
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0529, Valid Loss: 1.0548
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0539, Valid Loss: 1.0673
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0542, Valid Loss: 1.0496
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0541, Valid Loss: 1.0512
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0549, Valid Loss: 1.0511
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0547, Valid Loss: 1.0536
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0526, Valid Loss: 1.0551
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0550, Valid Loss: 1.0514
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0554, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0538, Valid Loss: 1.0524
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0558, Valid Loss: 1.0630
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0486891269683838, 1.0511043071746826, 1.0630234479904175]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0542722940444946
+
+Trial 5/10
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 16, 'epochs': 300, 'hidden_size1': 64, 'hidden_size2': 16, 'hidden_size3': 16, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 0.8774, Valid Loss: 2.8128
+Train Accuracy: 0.5292, Valid Accuracy: 0.3258
+Epoch [100/300], Train Loss: 0.9366, Valid Loss: 0.7802
+Train Accuracy: 0.7387, Valid Accuracy: 0.6975
+Epoch [150/300], Train Loss: 0.7781, Valid Loss: 2.8550
+Train Accuracy: 0.5400, Valid Accuracy: 0.5038
+Epoch [200/300], Train Loss: 0.7359, Valid Loss: 0.8457
+Train Accuracy: 0.7975, Valid Accuracy: 0.7031
+Epoch [250/300], Train Loss: 0.6927, Valid Loss: 2.0478
+Train Accuracy: 0.6594, Valid Accuracy: 0.6044
+Epoch [300/300], Train Loss: 0.6395, Valid Loss: 0.8909
+Train Accuracy: 0.8059, Valid Accuracy: 0.6976
+Sub-trial 2:
+Epoch [50/300], Train Loss: 0.8777, Valid Loss: 1.4519
+Train Accuracy: 0.6913, Valid Accuracy: 0.4736
+Epoch [100/300], Train Loss: 0.8259, Valid Loss: 1.3247
+Train Accuracy: 0.5427, Valid Accuracy: 0.4796
+Epoch [150/300], Train Loss: 0.7790, Valid Loss: 0.7569
+Train Accuracy: 0.7596, Valid Accuracy: 0.6605
+Epoch [200/300], Train Loss: 0.7115, Valid Loss: 0.8903
+Train Accuracy: 0.7197, Valid Accuracy: 0.6280
+Epoch [250/300], Train Loss: 0.6761, Valid Loss: 0.6193
+Train Accuracy: 0.7605, Valid Accuracy: 0.7531
+Epoch [300/300], Train Loss: 0.6296, Valid Loss: 0.8147
+Train Accuracy: 0.7858, Valid Accuracy: 0.6418
+Sub-trial 3:
+Epoch [50/300], Train Loss: 0.8762, Valid Loss: 1.8273
+Train Accuracy: 0.6955, Valid Accuracy: 0.4390
+Epoch [100/300], Train Loss: 0.7368, Valid Loss: 0.6832
+Train Accuracy: 0.7745, Valid Accuracy: 0.7464
+Epoch [150/300], Train Loss: 0.6804, Valid Loss: 0.8878
+Train Accuracy: 0.7637, Valid Accuracy: 0.6626
+Epoch [200/300], Train Loss: 0.6940, Valid Loss: 0.8475
+Train Accuracy: 0.7645, Valid Accuracy: 0.6182
+Epoch [250/300], Train Loss: 0.6033, Valid Loss: 1.0018
+Train Accuracy: 0.7894, Valid Accuracy: 0.5708
+Epoch [300/300], Train Loss: 0.6007, Valid Loss: 0.5788
+Train Accuracy: 0.8264, Valid Accuracy: 0.8117
+Accuracies: [0.6976464986801147, 0.6417761445045471, 0.8116541504859924]
+Losses: [0.8909011483192444, 0.8147015571594238, 0.5788076519966125]
+Average Accuracy: 0.7170255978902181
+Average Loss: 0.7614701191584269
+
+Trial 6/10
+Current parameters: {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 16, 'hidden_size2': 128, 'hidden_size3': 32, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 0.6763, Valid Loss: 0.6986
+Train Accuracy: 0.7957, Valid Accuracy: 0.7076
+Epoch [100/200], Train Loss: 0.5735, Valid Loss: 1.3285
+Train Accuracy: 0.6788, Valid Accuracy: 0.4168
+Epoch [150/200], Train Loss: 0.4832, Valid Loss: 0.8919
+Train Accuracy: 0.8540, Valid Accuracy: 0.6244
+Epoch [200/200], Train Loss: 0.4459, Valid Loss: 0.7702
+Train Accuracy: 0.8732, Valid Accuracy: 0.7203
+Sub-trial 2:
+Epoch [50/200], Train Loss: 0.5753, Valid Loss: 0.7445
+Train Accuracy: 0.8160, Valid Accuracy: 0.7133
+Epoch [100/200], Train Loss: 0.4702, Valid Loss: 0.5599
+Train Accuracy: 0.8150, Valid Accuracy: 0.8053
+Epoch [150/200], Train Loss: 0.4153, Valid Loss: 0.6753
+Train Accuracy: 0.8925, Valid Accuracy: 0.7645
+Epoch [200/200], Train Loss: 0.4051, Valid Loss: 0.5672
+Train Accuracy: 0.9027, Valid Accuracy: 0.8039
+Sub-trial 3:
+Epoch [50/200], Train Loss: 0.5141, Valid Loss: 1.1075
+Train Accuracy: 0.8312, Valid Accuracy: 0.5971
+Epoch [100/200], Train Loss: 0.4318, Valid Loss: 0.5092
+Train Accuracy: 0.8905, Valid Accuracy: 0.8355
+Epoch [150/200], Train Loss: 0.4164, Valid Loss: 0.5715
+Train Accuracy: 0.8904, Valid Accuracy: 0.8017
+Epoch [200/200], Train Loss: 0.4079, Valid Loss: 0.6514
+Train Accuracy: 0.8706, Valid Accuracy: 0.7490
+Accuracies: [0.7203146815299988, 0.8038536310195923, 0.749049961566925]
+Losses: [0.7702086567878723, 0.5672091841697693, 0.6514433026313782]
+Average Accuracy: 0.7577394247055054
+Average Loss: 0.6629537145296732
+New best model by Validation Accuracy! Accuracy: 0.7577
+New best model by Validation Loss! Loss: 0.6630
+
+Trial 7/10
+Current parameters: {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 100, 'hidden_size1': 16, 'hidden_size2': 32, 'hidden_size3': 16, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 1.0502, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0504, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.6366, Valid Loss: 1.5123
+Train Accuracy: 0.7086, Valid Accuracy: 0.4848
+Epoch [100/100], Train Loss: 0.4868, Valid Loss: 0.9239
+Train Accuracy: 0.8295, Valid Accuracy: 0.6711
+Sub-trial 3:
+Epoch [50/100], Train Loss: 0.6683, Valid Loss: 1.1655
+Train Accuracy: 0.7415, Valid Accuracy: 0.5194
+Epoch [100/100], Train Loss: 0.4524, Valid Loss: 0.9756
+Train Accuracy: 0.8585, Valid Accuracy: 0.6465
+Accuracies: [0.48663246631622314, 0.6711114048957825, 0.6465097665786743]
+Losses: [1.04865300655365, 0.9239468574523926, 0.9755680561065674]
+Average Accuracy: 0.6014178792635599
+Average Loss: 0.9827226400375366
+
+Trial 8/10
+Current parameters: {'learning_rate': 0.01, 'batch_size': 16, 'epochs': 100, 'hidden_size1': 32, 'hidden_size2': 128, 'hidden_size3': 128, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 1.0514, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0510, Valid Loss: 1.0492
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/100], Train Loss: 1.0515, Valid Loss: 1.0493
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0515, Valid Loss: 1.0501
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/100], Train Loss: 1.0514, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0514, Valid Loss: 1.0495
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0492111444473267, 1.050113558769226, 1.0494625568389893]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0495957533518474
+
+Trial 9/10
+Current parameters: {'learning_rate': 0.001, 'batch_size': 32, 'epochs': 100, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 4.1240, Valid Loss: 4.1272
+Train Accuracy: 0.6202, Valid Accuracy: 0.6648
+Epoch [100/100], Train Loss: 1.1724, Valid Loss: 4.4013
+Train Accuracy: 0.6802, Valid Accuracy: 0.6448
+Sub-trial 2:
+Epoch [50/100], Train Loss: 3.2180, Valid Loss: 4.9143
+Train Accuracy: 0.7258, Valid Accuracy: 0.5788
+Epoch [100/100], Train Loss: 1.0690, Valid Loss: 3.0025
+Train Accuracy: 0.5120, Valid Accuracy: 0.4806
+Sub-trial 3:
+Epoch [50/100], Train Loss: 3.1444, Valid Loss: 5.4605
+Train Accuracy: 0.6684, Valid Accuracy: 0.6050
+Epoch [100/100], Train Loss: 1.0320, Valid Loss: 1.8216
+Train Accuracy: 0.7386, Valid Accuracy: 0.5960
+Accuracies: [0.6448429822921753, 0.48063206672668457, 0.5959730744361877]
+Losses: [4.401341438293457, 3.0025126934051514, 1.8215738534927368]
+Average Accuracy: 0.5738160411516825
+Average Loss: 3.0751426617304483
+
+Trial 10/10
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 16, 'hidden_size2': 32, 'hidden_size3': 128, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 0.8237, Valid Loss: 1.4371
+Train Accuracy: 0.6036, Valid Accuracy: 0.3036
+Epoch [100/200], Train Loss: 0.7019, Valid Loss: 1.2412
+Train Accuracy: 0.7229, Valid Accuracy: 0.5718
+Epoch [150/200], Train Loss: 0.6436, Valid Loss: 0.6202
+Train Accuracy: 0.8005, Valid Accuracy: 0.7759
+Epoch [200/200], Train Loss: 0.6290, Valid Loss: 0.5846
+Train Accuracy: 0.8225, Valid Accuracy: 0.8028
+Sub-trial 2:
+Epoch [50/200], Train Loss: 0.8793, Valid Loss: 1.1441
+Train Accuracy: 0.6946, Valid Accuracy: 0.3766
+Epoch [100/200], Train Loss: 0.7406, Valid Loss: 0.6631
+Train Accuracy: 0.7481, Valid Accuracy: 0.7392
+Epoch [150/200], Train Loss: 0.7108, Valid Loss: 0.7874
+Train Accuracy: 0.8046, Valid Accuracy: 0.6694
+Epoch [200/200], Train Loss: 0.6753, Valid Loss: 1.0260
+Train Accuracy: 0.7044, Valid Accuracy: 0.5999
+Sub-trial 3:
+Epoch [50/200], Train Loss: 0.8641, Valid Loss: 1.0014
+Train Accuracy: 0.7000, Valid Accuracy: 0.4667
+Epoch [100/200], Train Loss: 0.7856, Valid Loss: 1.0556
+Train Accuracy: 0.5082, Valid Accuracy: 0.4761
+Epoch [150/200], Train Loss: 0.7215, Valid Loss: 1.3785
+Train Accuracy: 0.6502, Valid Accuracy: 0.4452
+Epoch [200/200], Train Loss: 0.7067, Valid Loss: 0.7396
+Train Accuracy: 0.7601, Valid Accuracy: 0.6876
+Accuracies: [0.8027868866920471, 0.5999066829681396, 0.6875792145729065]
+Losses: [0.5846067667007446, 1.0260467529296875, 0.7395802736282349]
+Average Accuracy: 0.6967575947443644
+Average Loss: 0.7834112644195557
+
+Run 2/5
+
+Trial 1/10
+Current parameters: {'learning_rate': 0.001, 'batch_size': 32, 'epochs': 300, 'hidden_size1': 16, 'hidden_size2': 32, 'hidden_size3': 128, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.1006, Valid Loss: 1.2495
+Train Accuracy: 0.6552, Valid Accuracy: 0.5665
+Epoch [100/300], Train Loss: 0.8995, Valid Loss: 0.6469
+Train Accuracy: 0.7435, Valid Accuracy: 0.7597
+Epoch [150/300], Train Loss: 0.6975, Valid Loss: 0.7747
+Train Accuracy: 0.7903, Valid Accuracy: 0.6611
+Epoch [200/300], Train Loss: 0.6168, Valid Loss: 0.7592
+Train Accuracy: 0.7507, Valid Accuracy: 0.7343
+Epoch [250/300], Train Loss: 0.6128, Valid Loss: 0.6555
+Train Accuracy: 0.7867, Valid Accuracy: 0.7757
+Epoch [300/300], Train Loss: 0.6074, Valid Loss: 0.6607
+Train Accuracy: 0.7967, Valid Accuracy: 0.7139
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.6558, Valid Loss: 4.4740
+Train Accuracy: 0.3788, Valid Accuracy: 0.3178
+Epoch [100/300], Train Loss: 1.3045, Valid Loss: 2.5605
+Train Accuracy: 0.6696, Valid Accuracy: 0.6202
+Epoch [150/300], Train Loss: 0.9375, Valid Loss: 0.6991
+Train Accuracy: 0.8089, Valid Accuracy: 0.7541
+Epoch [200/300], Train Loss: 0.8069, Valid Loss: 0.7640
+Train Accuracy: 0.8058, Valid Accuracy: 0.7587
+Epoch [250/300], Train Loss: 0.7063, Valid Loss: 1.0843
+Train Accuracy: 0.7522, Valid Accuracy: 0.6874
+Epoch [300/300], Train Loss: 0.6289, Valid Loss: 0.8764
+Train Accuracy: 0.7293, Valid Accuracy: 0.5993
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0309, Valid Loss: 9.7387
+Train Accuracy: 0.4838, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 0.7972, Valid Loss: 1.2907
+Train Accuracy: 0.7165, Valid Accuracy: 0.4950
+Epoch [150/300], Train Loss: 0.6351, Valid Loss: 0.6208
+Train Accuracy: 0.8159, Valid Accuracy: 0.7727
+Epoch [200/300], Train Loss: 0.5983, Valid Loss: 0.6101
+Train Accuracy: 0.8223, Valid Accuracy: 0.7936
+Epoch [250/300], Train Loss: 0.5842, Valid Loss: 0.8756
+Train Accuracy: 0.7680, Valid Accuracy: 0.5856
+Epoch [300/300], Train Loss: 0.5836, Valid Loss: 0.7647
+Train Accuracy: 0.8105, Valid Accuracy: 0.6896
+Accuracies: [0.7139142751693726, 0.5993066430091858, 0.6895793080329895]
+Losses: [0.6607294678688049, 0.8764081001281738, 0.7646816372871399]
+Average Accuracy: 0.6676000754038492
+Average Loss: 0.7672730684280396
+New best model by Validation Accuracy! Accuracy: 0.6676
+New best model by Validation Loss! Loss: 0.7673
+
+Trial 2/10
+Current parameters: {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 100, 'hidden_size1': 32, 'hidden_size2': 128, 'hidden_size3': 32, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 0.6797, Valid Loss: 0.7581
+Train Accuracy: 0.7646, Valid Accuracy: 0.6557
+Epoch [100/100], Train Loss: 0.4852, Valid Loss: 0.5528
+Train Accuracy: 0.8565, Valid Accuracy: 0.7905
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.6678, Valid Loss: 1.0805
+Train Accuracy: 0.7525, Valid Accuracy: 0.5220
+Epoch [100/100], Train Loss: 0.4774, Valid Loss: 0.9460
+Train Accuracy: 0.8523, Valid Accuracy: 0.6223
+Sub-trial 3:
+Epoch [50/100], Train Loss: 0.6567, Valid Loss: 0.8383
+Train Accuracy: 0.7562, Valid Accuracy: 0.6300
+Epoch [100/100], Train Loss: 0.5204, Valid Loss: 0.5025
+Train Accuracy: 0.8264, Valid Accuracy: 0.8438
+Accuracies: [0.7904527187347412, 0.6223081946372986, 0.8437895774841309]
+Losses: [0.552775502204895, 0.9459881782531738, 0.502490222454071]
+Average Accuracy: 0.7521834969520569
+Average Loss: 0.6670846343040466
+New best model by Validation Accuracy! Accuracy: 0.7522
+New best model by Validation Loss! Loss: 0.6671
+
+Run 1/1
+
+Trial 1/30
+Current parameters: {'learning_rate': 0.1, 'batch_size': 16, 'epochs': 200, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 128, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 1.0586, Valid Loss: 1.0630
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0592, Valid Loss: 1.0551
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0606, Valid Loss: 1.0528
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0589, Valid Loss: 1.0570
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/200], Train Loss: 1.0598, Valid Loss: 1.0618
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0586, Valid Loss: 1.0497
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0581, Valid Loss: 1.0503
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0589, Valid Loss: 1.0503
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/200], Train Loss: 1.0580, Valid Loss: 1.0659
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0587, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0591, Valid Loss: 1.0580
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0595, Valid Loss: 1.0542
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0570307970046997, 1.0502686500549316, 1.0541937351226807]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0538310607274373
+New best model by Validation Accuracy! Accuracy: 0.4866
+New best model by Validation Loss! Loss: 1.0538
+
+Trial 2/30
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 64, 'epochs': 100, 'hidden_size1': 128, 'hidden_size2': 16, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 0.9945, Valid Loss: 2.0882
+Train Accuracy: 0.6587, Valid Accuracy: 0.3263
+Epoch [100/100], Train Loss: 1.1600, Valid Loss: 2.0662
+Train Accuracy: 0.6059, Valid Accuracy: 0.5212
+Sub-trial 2:
+Epoch [50/100], Train Loss: 1.0468, Valid Loss: 1.0239
+Train Accuracy: 0.6927, Valid Accuracy: 0.6420
+Epoch [100/100], Train Loss: 0.9800, Valid Loss: 0.7505
+Train Accuracy: 0.7213, Valid Accuracy: 0.6935
+Sub-trial 3:
+Epoch [50/100], Train Loss: 1.0582, Valid Loss: 1.1770
+Train Accuracy: 0.7088, Valid Accuracy: 0.6204
+Epoch [100/100], Train Loss: 1.0424, Valid Loss: 1.7260
+Train Accuracy: 0.5404, Valid Accuracy: 0.4682
+Accuracies: [0.5211681127548218, 0.6935129165649414, 0.4681645631790161]
+Losses: [2.0662403106689453, 0.7505042552947998, 1.7259889841079712]
+Average Accuracy: 0.5609485308329264
+Average Loss: 1.514244516690572
+New best model by Validation Accuracy! Accuracy: 0.5609
+
+Trial 3/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 16, 'epochs': 300, 'hidden_size1': 16, 'hidden_size2': 32, 'hidden_size3': 16, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0511, Valid Loss: 1.0493
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0515, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0514, Valid Loss: 1.0499
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0513, Valid Loss: 1.0518
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0514, Valid Loss: 1.0492
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0515, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0513, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0512, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0515, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0514, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0512, Valid Loss: 1.0509
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0510, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 0.7533, Valid Loss: 1.0546
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0526, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0512, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0512, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0517, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0517, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0486644506454468, 1.0489548444747925, 1.048689603805542]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0487696329752605
+New best model by Validation Loss! Loss: 1.0488
+
+Trial 4/30
+Current parameters: {'learning_rate': 0.001, 'batch_size': 16, 'epochs': 100, 'hidden_size1': 16, 'hidden_size2': 16, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 0.7547, Valid Loss: 1.4548
+Train Accuracy: 0.6912, Valid Accuracy: 0.6269
+Epoch [100/100], Train Loss: 0.6308, Valid Loss: 0.6478
+Train Accuracy: 0.8069, Valid Accuracy: 0.7434
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.8918, Valid Loss: 2.4236
+Train Accuracy: 0.5016, Valid Accuracy: 0.4777
+Epoch [100/100], Train Loss: 0.6377, Valid Loss: 0.6185
+Train Accuracy: 0.8001, Valid Accuracy: 0.8037
+Sub-trial 3:
+Epoch [50/100], Train Loss: 0.7441, Valid Loss: 0.6748
+Train Accuracy: 0.7537, Valid Accuracy: 0.7466
+Epoch [100/100], Train Loss: 0.6294, Valid Loss: 0.6263
+Train Accuracy: 0.8041, Valid Accuracy: 0.7617
+Accuracies: [0.7433829307556152, 0.8037202954292297, 0.7617174386978149]
+Losses: [0.6478201150894165, 0.6185376644134521, 0.6263320446014404]
+Average Accuracy: 0.76960688829422
+Average Loss: 0.6308966080347697
+New best model by Validation Accuracy! Accuracy: 0.7696
+New best model by Validation Loss! Loss: 0.6309
+
+Trial 5/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 64, 'epochs': 300, 'hidden_size1': 32, 'hidden_size2': 64, 'hidden_size3': 16, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 0.6769, Valid Loss: 0.8537
+Train Accuracy: 0.7172, Valid Accuracy: 0.6114
+Epoch [100/300], Train Loss: 0.6591, Valid Loss: 0.6317
+Train Accuracy: 0.7799, Valid Accuracy: 0.7673
+Epoch [150/300], Train Loss: 0.7078, Valid Loss: 0.6993
+Train Accuracy: 0.7465, Valid Accuracy: 0.7609
+Epoch [200/300], Train Loss: 0.6824, Valid Loss: 0.6644
+Train Accuracy: 0.8005, Valid Accuracy: 0.7364
+Epoch [250/300], Train Loss: 0.6838, Valid Loss: 0.5965
+Train Accuracy: 0.8161, Valid Accuracy: 0.8094
+Epoch [300/300], Train Loss: 0.6519, Valid Loss: 0.6748
+Train Accuracy: 0.7991, Valid Accuracy: 0.7681
+Sub-trial 2:
+Epoch [50/300], Train Loss: 0.6570, Valid Loss: 1.0416
+Train Accuracy: 0.6702, Valid Accuracy: 0.5798
+Epoch [100/300], Train Loss: 0.6737, Valid Loss: 0.6381
+Train Accuracy: 0.8022, Valid Accuracy: 0.7531
+Epoch [150/300], Train Loss: 0.6603, Valid Loss: 0.7437
+Train Accuracy: 0.7402, Valid Accuracy: 0.6819
+Epoch [200/300], Train Loss: 0.6725, Valid Loss: 0.6719
+Train Accuracy: 0.8027, Valid Accuracy: 0.7286
+Epoch [250/300], Train Loss: 0.6596, Valid Loss: 0.6368
+Train Accuracy: 0.7872, Valid Accuracy: 0.7901
+Epoch [300/300], Train Loss: 0.6697, Valid Loss: 0.7927
+Train Accuracy: 0.7402, Valid Accuracy: 0.6476
+Sub-trial 3:
+Epoch [50/300], Train Loss: 0.6594, Valid Loss: 0.6116
+Train Accuracy: 0.7791, Valid Accuracy: 0.7993
+Epoch [100/300], Train Loss: 0.6746, Valid Loss: 0.6244
+Train Accuracy: 0.8072, Valid Accuracy: 0.7747
+Epoch [150/300], Train Loss: 0.6687, Valid Loss: 0.6864
+Train Accuracy: 0.7931, Valid Accuracy: 0.7116
+Epoch [200/300], Train Loss: 0.6777, Valid Loss: 0.9644
+Train Accuracy: 0.6523, Valid Accuracy: 0.5786
+Epoch [250/300], Train Loss: 0.6933, Valid Loss: 1.0652
+Train Accuracy: 0.6463, Valid Accuracy: 0.5527
+Epoch [300/300], Train Loss: 0.6701, Valid Loss: 0.6432
+Train Accuracy: 0.8082, Valid Accuracy: 0.7746
+Accuracies: [0.7680512070655823, 0.6475765109062195, 0.7745850086212158]
+Losses: [0.6747947335243225, 0.7927334904670715, 0.643216073513031]
+Average Accuracy: 0.7300709088643392
+Average Loss: 0.703581432501475
+
+Trial 6/30
+Current parameters: {'learning_rate': 0.1, 'batch_size': 16, 'epochs': 100, 'hidden_size1': 16, 'hidden_size2': 64, 'hidden_size3': 32, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 1.0590, Valid Loss: 1.0508
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0573, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/100], Train Loss: 1.0588, Valid Loss: 1.0497
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0586, Valid Loss: 1.0622
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/100], Train Loss: 1.0596, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0607, Valid Loss: 1.0653
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.049059271812439, 1.062179684638977, 1.0652815103530884]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0588401556015015
+
+Trial 7/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 64, 'hidden_size2': 128, 'hidden_size3': 16, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 0.5821, Valid Loss: 1.4354
+Train Accuracy: 0.6280, Valid Accuracy: 0.4018
+Epoch [100/200], Train Loss: 0.5842, Valid Loss: 0.6785
+Train Accuracy: 0.8001, Valid Accuracy: 0.7055
+Epoch [150/200], Train Loss: 0.5792, Valid Loss: 0.5900
+Train Accuracy: 0.7850, Valid Accuracy: 0.7566
+Epoch [200/200], Train Loss: 0.5717, Valid Loss: 0.5730
+Train Accuracy: 0.7950, Valid Accuracy: 0.7657
+Sub-trial 2:
+Epoch [50/200], Train Loss: 1.0509, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0513, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0507, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0506, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/200], Train Loss: 0.5989, Valid Loss: 0.6809
+Train Accuracy: 0.7756, Valid Accuracy: 0.6903
+Epoch [100/200], Train Loss: 0.6063, Valid Loss: 0.5424
+Train Accuracy: 0.8145, Valid Accuracy: 0.8080
+Epoch [150/200], Train Loss: 0.5799, Valid Loss: 0.8793
+Train Accuracy: 0.7474, Valid Accuracy: 0.6052
+Epoch [200/200], Train Loss: 0.5646, Valid Loss: 0.6154
+Train Accuracy: 0.8024, Valid Accuracy: 0.7448
+Accuracies: [0.7657177448272705, 0.48663246631622314, 0.7447829842567444]
+Losses: [0.5730388760566711, 1.0493910312652588, 0.6154446005821228]
+Average Accuracy: 0.6657110651334127
+Average Loss: 0.745958169301351
+
+Trial 8/30
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 64, 'epochs': 100, 'hidden_size1': 32, 'hidden_size2': 16, 'hidden_size3': 32, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 0.7667, Valid Loss: 1.3824
+Train Accuracy: 0.6333, Valid Accuracy: 0.5170
+Epoch [100/100], Train Loss: 0.7237, Valid Loss: 1.9771
+Train Accuracy: 0.6724, Valid Accuracy: 0.3544
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.8034, Valid Loss: 0.8008
+Train Accuracy: 0.6287, Valid Accuracy: 0.6064
+Epoch [100/100], Train Loss: 0.7539, Valid Loss: 0.8087
+Train Accuracy: 0.5953, Valid Accuracy: 0.5748
+Sub-trial 3:
+Epoch [50/100], Train Loss: 0.8009, Valid Loss: 0.8327
+Train Accuracy: 0.6538, Valid Accuracy: 0.6433
+Epoch [100/100], Train Loss: 0.7023, Valid Loss: 0.9298
+Train Accuracy: 0.7360, Valid Accuracy: 0.5794
+Accuracies: [0.3544236421585083, 0.5747716426849365, 0.579371988773346]
+Losses: [1.977109670639038, 0.8086625933647156, 0.9298200011253357]
+Average Accuracy: 0.5028557578722636
+Average Loss: 1.2385307550430298
+
+Trial 9/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 16, 'epochs': 100, 'hidden_size1': 16, 'hidden_size2': 128, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 1.0516, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0511, Valid Loss: 1.0525
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/100], Train Loss: 1.0516, Valid Loss: 1.0497
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0512, Valid Loss: 1.0521
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/100], Train Loss: 1.0516, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0515, Valid Loss: 1.0495
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0525116920471191, 1.052115559577942, 1.0494942665100098]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.051373839378357
+
+Trial 10/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 32, 'epochs': 300, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 16, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0510, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0509, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0510, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0514, Valid Loss: 1.0493
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0509, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0510, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0511, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0510, Valid Loss: 1.0498
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0511, Valid Loss: 1.0498
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0513, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0512, Valid Loss: 1.0497
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0511, Valid Loss: 1.0516
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0513, Valid Loss: 1.0497
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0506, Valid Loss: 1.0526
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0510, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0511, Valid Loss: 1.0495
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0510, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0513, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0494384765625, 1.0515799522399902, 1.0488015413284302]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0499399900436401
+
+Trial 11/30
+Current parameters: {'learning_rate': 0.1, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 16, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 1.0551, Valid Loss: 1.0550
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0550, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0543, Valid Loss: 1.0555
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0543, Valid Loss: 1.0498
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/200], Train Loss: 1.0561, Valid Loss: 1.0508
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0538, Valid Loss: 1.0560
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0545, Valid Loss: 1.0541
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0534, Valid Loss: 1.0573
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/200], Train Loss: 1.0534, Valid Loss: 1.0527
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0541, Valid Loss: 1.0493
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0538, Valid Loss: 1.0523
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0552, Valid Loss: 1.0546
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0497944355010986, 1.0572901964187622, 1.0545580387115479]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0538808902104695
+
+Trial 12/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 32, 'epochs': 100, 'hidden_size1': 16, 'hidden_size2': 64, 'hidden_size3': 128, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 1.0511, Valid Loss: 1.0493
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0513, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.5985, Valid Loss: 0.6130
+Train Accuracy: 0.7719, Valid Accuracy: 0.7450
+Epoch [100/100], Train Loss: 0.6087, Valid Loss: 0.6167
+Train Accuracy: 0.7933, Valid Accuracy: 0.7461
+Sub-trial 3:
+Epoch [50/100], Train Loss: 1.0513, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0513, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.7461163997650146, 0.48663246631622314]
+Losses: [1.0487723350524902, 0.6166729927062988, 1.0489555597305298]
+Average Accuracy: 0.5731271107991537
+Average Loss: 0.904800295829773
+
+Trial 13/30
+Current parameters: {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 100, 'hidden_size1': 64, 'hidden_size2': 128, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 2.2046, Valid Loss: 4.6132
+Train Accuracy: 0.6692, Valid Accuracy: 0.6027
+Epoch [100/100], Train Loss: 1.7322, Valid Loss: 8.0353
+Train Accuracy: 0.4850, Valid Accuracy: 0.2652
+Sub-trial 2:
+Epoch [50/100], Train Loss: 3.4073, Valid Loss: 5.2963
+Train Accuracy: 0.6288, Valid Accuracy: 0.6030
+Epoch [100/100], Train Loss: 1.6845, Valid Loss: 2.5887
+Train Accuracy: 0.7219, Valid Accuracy: 0.4380
+Sub-trial 3:
+Epoch [50/100], Train Loss: 3.2586, Valid Loss: 10.8984
+Train Accuracy: 0.4700, Valid Accuracy: 0.4497
+Epoch [100/100], Train Loss: 2.3608, Valid Loss: 4.4475
+Train Accuracy: 0.4984, Valid Accuracy: 0.4769
+Accuracies: [0.2651510238647461, 0.4380291998386383, 0.4768984615802765]
+Losses: [8.035344123840332, 2.588691234588623, 4.447479724884033]
+Average Accuracy: 0.3933595617612203
+Average Loss: 5.023838361104329
+
+Trial 14/30
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 16, 'epochs': 300, 'hidden_size1': 128, 'hidden_size2': 128, 'hidden_size3': 32, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.2090, Valid Loss: 3.7349
+Train Accuracy: 0.6321, Valid Accuracy: 0.3194
+Epoch [100/300], Train Loss: 0.9146, Valid Loss: 1.9456
+Train Accuracy: 0.6344, Valid Accuracy: 0.5216
+Epoch [150/300], Train Loss: 0.7428, Valid Loss: 0.8928
+Train Accuracy: 0.8047, Valid Accuracy: 0.6524
+Epoch [200/300], Train Loss: 0.6413, Valid Loss: 0.6377
+Train Accuracy: 0.8200, Valid Accuracy: 0.7761
+Epoch [250/300], Train Loss: 0.5378, Valid Loss: 1.2465
+Train Accuracy: 0.8058, Valid Accuracy: 0.5640
+Epoch [300/300], Train Loss: 0.4991, Valid Loss: 0.7639
+Train Accuracy: 0.8344, Valid Accuracy: 0.7168
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.6161, Valid Loss: 0.9266
+Train Accuracy: 0.6314, Valid Accuracy: 0.7010
+Epoch [100/300], Train Loss: 1.0080, Valid Loss: 0.6874
+Train Accuracy: 0.6524, Valid Accuracy: 0.7587
+Epoch [150/300], Train Loss: 0.6827, Valid Loss: 1.5685
+Train Accuracy: 0.7547, Valid Accuracy: 0.5448
+Epoch [200/300], Train Loss: 0.5580, Valid Loss: 0.7961
+Train Accuracy: 0.8138, Valid Accuracy: 0.6998
+Epoch [250/300], Train Loss: 0.5092, Valid Loss: 1.1589
+Train Accuracy: 0.8231, Valid Accuracy: 0.5815
+Epoch [300/300], Train Loss: 0.4876, Valid Loss: 0.5643
+Train Accuracy: 0.8194, Valid Accuracy: 0.7990
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.3332, Valid Loss: 2.5084
+Train Accuracy: 0.6202, Valid Accuracy: 0.4018
+Epoch [100/300], Train Loss: 0.8531, Valid Loss: 2.7444
+Train Accuracy: 0.6654, Valid Accuracy: 0.6159
+Epoch [150/300], Train Loss: 0.6502, Valid Loss: 1.2553
+Train Accuracy: 0.7825, Valid Accuracy: 0.6266
+Epoch [200/300], Train Loss: 0.5653, Valid Loss: 1.0468
+Train Accuracy: 0.8199, Valid Accuracy: 0.6142
+Epoch [250/300], Train Loss: 0.5316, Valid Loss: 0.8294
+Train Accuracy: 0.8181, Valid Accuracy: 0.6799
+Epoch [300/300], Train Loss: 0.5064, Valid Loss: 0.9204
+Train Accuracy: 0.8337, Valid Accuracy: 0.6532
+Accuracies: [0.7168477773666382, 0.7989866137504578, 0.6531769037246704]
+Losses: [0.7638819217681885, 0.5643107891082764, 0.9204038977622986]
+Average Accuracy: 0.7230037649472555
+Average Loss: 0.7495322028795878
+
+Trial 15/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 16, 'epochs': 300, 'hidden_size1': 64, 'hidden_size2': 32, 'hidden_size3': 128, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0515, Valid Loss: 1.0493
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0513, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0518, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0515, Valid Loss: 1.0495
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0516, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0514, Valid Loss: 1.0514
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0516, Valid Loss: 1.0496
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0513, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0516, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0514, Valid Loss: 1.0495
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0513, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0515, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0512, Valid Loss: 1.0501
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0516, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0514, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0514, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0513, Valid Loss: 1.0497
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0513, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.051409363746643, 1.0487498044967651, 1.0486301183700562]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0495964288711548
+
+Trial 16/30
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 16, 'epochs': 200, 'hidden_size1': 16, 'hidden_size2': 32, 'hidden_size3': 32, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 0.7419, Valid Loss: 1.3026
+Train Accuracy: 0.7082, Valid Accuracy: 0.5081
+Epoch [100/200], Train Loss: 0.6789, Valid Loss: 0.7526
+Train Accuracy: 0.7561, Valid Accuracy: 0.6731
+Epoch [150/200], Train Loss: 0.5751, Valid Loss: 0.7337
+Train Accuracy: 0.8307, Valid Accuracy: 0.6886
+Epoch [200/200], Train Loss: 0.5103, Valid Loss: 0.6258
+Train Accuracy: 0.8408, Valid Accuracy: 0.7611
+Sub-trial 2:
+Epoch [50/200], Train Loss: 0.7360, Valid Loss: 1.2569
+Train Accuracy: 0.6593, Valid Accuracy: 0.6106
+Epoch [100/200], Train Loss: 0.6808, Valid Loss: 1.4531
+Train Accuracy: 0.6854, Valid Accuracy: 0.4403
+Epoch [150/200], Train Loss: 0.6417, Valid Loss: 0.6517
+Train Accuracy: 0.7990, Valid Accuracy: 0.7363
+Epoch [200/200], Train Loss: 0.5632, Valid Loss: 0.7004
+Train Accuracy: 0.8262, Valid Accuracy: 0.6936
+Sub-trial 3:
+Epoch [50/200], Train Loss: 0.7583, Valid Loss: 1.2959
+Train Accuracy: 0.7180, Valid Accuracy: 0.4328
+Epoch [100/200], Train Loss: 0.6514, Valid Loss: 1.3924
+Train Accuracy: 0.7619, Valid Accuracy: 0.4194
+Epoch [150/200], Train Loss: 0.5488, Valid Loss: 0.5827
+Train Accuracy: 0.8314, Valid Accuracy: 0.8058
+Epoch [200/200], Train Loss: 0.5110, Valid Loss: 1.3803
+Train Accuracy: 0.7849, Valid Accuracy: 0.5328
+Accuracies: [0.7611173987388611, 0.693646252155304, 0.5327688455581665]
+Losses: [0.625800609588623, 0.7004340887069702, 1.3802753686904907]
+Average Accuracy: 0.6625108321507772
+Average Loss: 0.9021700223286947
+
+Trial 17/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 16, 'epochs': 300, 'hidden_size1': 128, 'hidden_size2': 16, 'hidden_size3': 16, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0516, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0511, Valid Loss: 1.0501
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0510, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0514, Valid Loss: 1.0501
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0517, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0513, Valid Loss: 1.0504
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0514, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0514, Valid Loss: 1.0496
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0513, Valid Loss: 1.0493
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0516, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0510, Valid Loss: 1.0497
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0513, Valid Loss: 1.0500
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0515, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0514, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0513, Valid Loss: 1.0503
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0511, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0515, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0515, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0504107475280762, 1.0499752759933472, 1.0487293004989624]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0497051080067952
+
+Trial 18/30
+Current parameters: {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 32, 'hidden_size2': 64, 'hidden_size3': 32, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 0.5920, Valid Loss: 0.6300
+Train Accuracy: 0.7816, Valid Accuracy: 0.7496
+Epoch [100/200], Train Loss: 0.4483, Valid Loss: 0.5491
+Train Accuracy: 0.8289, Valid Accuracy: 0.7921
+Epoch [150/200], Train Loss: 0.4269, Valid Loss: 0.3991
+Train Accuracy: 0.8846, Valid Accuracy: 0.8957
+Epoch [200/200], Train Loss: 0.4140, Valid Loss: 0.6214
+Train Accuracy: 0.8559, Valid Accuracy: 0.7576
+Sub-trial 2:
+Epoch [50/200], Train Loss: 0.6486, Valid Loss: 1.3813
+Train Accuracy: 0.7201, Valid Accuracy: 0.4359
+Epoch [100/200], Train Loss: 0.5092, Valid Loss: 1.4605
+Train Accuracy: 0.7715, Valid Accuracy: 0.4731
+Epoch [150/200], Train Loss: 0.4416, Valid Loss: 0.5779
+Train Accuracy: 0.7977, Valid Accuracy: 0.7826
+Epoch [200/200], Train Loss: 0.4207, Valid Loss: 0.3982
+Train Accuracy: 0.8697, Valid Accuracy: 0.8879
+Sub-trial 3:
+Epoch [50/200], Train Loss: 0.6689, Valid Loss: 0.6823
+Train Accuracy: 0.7475, Valid Accuracy: 0.7081
+Epoch [100/200], Train Loss: 0.5724, Valid Loss: 1.0724
+Train Accuracy: 0.7224, Valid Accuracy: 0.5414
+Epoch [150/200], Train Loss: 0.5496, Valid Loss: 0.5992
+Train Accuracy: 0.8041, Valid Accuracy: 0.7778
+Epoch [200/200], Train Loss: 0.4336, Valid Loss: 0.4273
+Train Accuracy: 0.8686, Valid Accuracy: 0.8699
+Accuracies: [0.7575838565826416, 0.8879258632659912, 0.8698580265045166]
+Losses: [0.6213938593864441, 0.39822983741760254, 0.42725670337677]
+Average Accuracy: 0.8384559154510498
+Average Loss: 0.4822934667269389
+New best model by Validation Accuracy! Accuracy: 0.8385
+New best model by Validation Loss! Loss: 0.4823
+
+Trial 19/30
+Current parameters: {'learning_rate': 0.001, 'batch_size': 32, 'epochs': 200, 'hidden_size1': 128, 'hidden_size2': 16, 'hidden_size3': 32, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 1.0507, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0506, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0507, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0506, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/200], Train Loss: 0.6437, Valid Loss: 1.3213
+Train Accuracy: 0.7056, Valid Accuracy: 0.4364
+Epoch [100/200], Train Loss: 0.5250, Valid Loss: 0.6664
+Train Accuracy: 0.8180, Valid Accuracy: 0.7216
+Epoch [150/200], Train Loss: 0.4685, Valid Loss: 0.8321
+Train Accuracy: 0.8084, Valid Accuracy: 0.6791
+Epoch [200/200], Train Loss: 0.4327, Valid Loss: 0.6071
+Train Accuracy: 0.8618, Valid Accuracy: 0.7682
+Sub-trial 3:
+Epoch [50/200], Train Loss: 1.0507, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0507, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0507, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0507, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.7681845426559448, 0.48663246631622314]
+Losses: [1.04863440990448, 0.6071034073829651, 1.0486410856246948]
+Average Accuracy: 0.5804831584294637
+Average Loss: 0.9014596343040466
+
+Trial 20/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 64, 'epochs': 100, 'hidden_size1': 128, 'hidden_size2': 32, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 0.6582, Valid Loss: 1.1075
+Train Accuracy: 0.7147, Valid Accuracy: 0.4573
+Epoch [100/100], Train Loss: 0.6871, Valid Loss: 0.7142
+Train Accuracy: 0.6711, Valid Accuracy: 0.6877
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.6591, Valid Loss: 1.0321
+Train Accuracy: 0.7559, Valid Accuracy: 0.5240
+Epoch [100/100], Train Loss: 0.6787, Valid Loss: 0.7673
+Train Accuracy: 0.6944, Valid Accuracy: 0.6656
+Sub-trial 3:
+Epoch [50/100], Train Loss: 0.6785, Valid Loss: 0.6682
+Train Accuracy: 0.7829, Valid Accuracy: 0.7209
+Epoch [100/100], Train Loss: 0.6767, Valid Loss: 1.1102
+Train Accuracy: 0.7120, Valid Accuracy: 0.4886
+Accuracies: [0.687712550163269, 0.6655777096748352, 0.48863258957862854]
+Losses: [0.7141649723052979, 0.7672929763793945, 1.1102039813995361]
+Average Accuracy: 0.6139742831389109
+Average Loss: 0.8638873100280762
+
+Trial 21/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 64, 'epochs': 300, 'hidden_size1': 16, 'hidden_size2': 64, 'hidden_size3': 32, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 0.5523, Valid Loss: 0.5287
+Train Accuracy: 0.8143, Valid Accuracy: 0.7985
+Epoch [100/300], Train Loss: 0.5577, Valid Loss: 0.6202
+Train Accuracy: 0.7835, Valid Accuracy: 0.7583
+Epoch [150/300], Train Loss: 0.5543, Valid Loss: 0.6344
+Train Accuracy: 0.7706, Valid Accuracy: 0.7478
+Epoch [200/300], Train Loss: 0.5370, Valid Loss: 0.5146
+Train Accuracy: 0.8151, Valid Accuracy: 0.8187
+Epoch [250/300], Train Loss: 0.5544, Valid Loss: 0.6430
+Train Accuracy: 0.7965, Valid Accuracy: 0.7384
+Epoch [300/300], Train Loss: 1.0532, Valid Loss: 1.0503
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0509, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0515, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0513, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0506, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0505, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0510, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0509, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0503, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0506, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0508, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0511, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0509, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0503400564193726, 1.048634648323059, 1.048781156539917]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.049251953760783
+
+Trial 22/30
+Current parameters: {'learning_rate': 0.1, 'batch_size': 16, 'epochs': 100, 'hidden_size1': 64, 'hidden_size2': 16, 'hidden_size3': 64, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 1.0591, Valid Loss: 1.0584
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0582, Valid Loss: 1.0519
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/100], Train Loss: 1.0589, Valid Loss: 1.0496
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0590, Valid Loss: 1.0498
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/100], Train Loss: 1.0597, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/100], Train Loss: 1.0584, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0518609285354614, 1.0497740507125854, 1.0493911504745483]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.050342043240865
+
+Trial 23/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 32, 'epochs': 300, 'hidden_size1': 64, 'hidden_size2': 128, 'hidden_size3': 64, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0511, Valid Loss: 1.0498
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0512, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0510, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0512, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0511, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0511, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0535, Valid Loss: 1.0533
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0522, Valid Loss: 1.0491
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0520, Valid Loss: 1.0503
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0513, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0511, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0511, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0513, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0514, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0509, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0510, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0511, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0508, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0490456819534302, 1.0486787557601929, 1.0494096279144287]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0490446885426838
+
+Trial 24/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 16, 'epochs': 300, 'hidden_size1': 16, 'hidden_size2': 64, 'hidden_size3': 16, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 1.0516, Valid Loss: 1.0495
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0513, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0516, Valid Loss: 1.0506
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0513, Valid Loss: 1.0495
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0511, Valid Loss: 1.0510
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0516, Valid Loss: 1.0488
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/300], Train Loss: 1.0512, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0517, Valid Loss: 1.0517
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0511, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0517, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0517, Valid Loss: 1.0486
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0513, Valid Loss: 1.0494
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/300], Train Loss: 1.0513, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/300], Train Loss: 1.0515, Valid Loss: 1.0498
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/300], Train Loss: 1.0516, Valid Loss: 1.0496
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/300], Train Loss: 1.0514, Valid Loss: 1.0521
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [250/300], Train Loss: 1.0514, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [300/300], Train Loss: 1.0512, Valid Loss: 1.0499
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0488086938858032, 1.0494072437286377, 1.0499018430709839]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0493725935618083
+
+Trial 25/30
+Current parameters: {'learning_rate': 0.01, 'batch_size': 32, 'epochs': 300, 'hidden_size1': 128, 'hidden_size2': 32, 'hidden_size3': 128, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/300], Train Loss: 0.6904, Valid Loss: 1.1339
+Train Accuracy: 0.6811, Valid Accuracy: 0.4651
+Epoch [100/300], Train Loss: 0.7305, Valid Loss: 0.6719
+Train Accuracy: 0.8013, Valid Accuracy: 0.7309
+Epoch [150/300], Train Loss: 0.7194, Valid Loss: 0.6382
+Train Accuracy: 0.7634, Valid Accuracy: 0.7829
+Epoch [200/300], Train Loss: 0.7373, Valid Loss: 0.9656
+Train Accuracy: 0.6559, Valid Accuracy: 0.5688
+Epoch [250/300], Train Loss: 0.6986, Valid Loss: 0.8022
+Train Accuracy: 0.7482, Valid Accuracy: 0.6192
+Epoch [300/300], Train Loss: 0.7097, Valid Loss: 0.6407
+Train Accuracy: 0.7556, Valid Accuracy: 0.7764
+Sub-trial 2:
+Epoch [50/300], Train Loss: 0.7165, Valid Loss: 0.9361
+Train Accuracy: 0.7505, Valid Accuracy: 0.5244
+Epoch [100/300], Train Loss: 0.7128, Valid Loss: 0.6924
+Train Accuracy: 0.7747, Valid Accuracy: 0.7103
+Epoch [150/300], Train Loss: 0.7291, Valid Loss: 0.9598
+Train Accuracy: 0.7270, Valid Accuracy: 0.5021
+Epoch [200/300], Train Loss: 0.7000, Valid Loss: 0.9741
+Train Accuracy: 0.6690, Valid Accuracy: 0.5413
+Epoch [250/300], Train Loss: 0.8142, Valid Loss: 0.7484
+Train Accuracy: 0.7294, Valid Accuracy: 0.7023
+Epoch [300/300], Train Loss: 0.7157, Valid Loss: 1.1050
+Train Accuracy: 0.6652, Valid Accuracy: 0.4198
+Sub-trial 3:
+Epoch [50/300], Train Loss: 0.7240, Valid Loss: 0.6955
+Train Accuracy: 0.7927, Valid Accuracy: 0.7111
+Epoch [100/300], Train Loss: 0.7220, Valid Loss: 0.6532
+Train Accuracy: 0.7975, Valid Accuracy: 0.7493
+Epoch [150/300], Train Loss: 0.7537, Valid Loss: 1.5867
+Train Accuracy: 0.5106, Valid Accuracy: 0.2936
+Epoch [200/300], Train Loss: 0.7291, Valid Loss: 0.6915
+Train Accuracy: 0.7556, Valid Accuracy: 0.7071
+Epoch [250/300], Train Loss: 0.7099, Valid Loss: 0.7550
+Train Accuracy: 0.6948, Valid Accuracy: 0.6604
+Epoch [300/300], Train Loss: 0.7421, Valid Loss: 0.7358
+Train Accuracy: 0.7758, Valid Accuracy: 0.6694
+Accuracies: [0.7763851284980774, 0.41982799768447876, 0.6693779826164246]
+Losses: [0.6406615376472473, 1.1049964427947998, 0.7358022332191467]
+Average Accuracy: 0.6218637029329935
+Average Loss: 0.8271534045537313
+
+Trial 26/30
+Current parameters: {'learning_rate': 0.1, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 128, 'hidden_size2': 32, 'hidden_size3': 128, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 1.0553, Valid Loss: 1.0649
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0540, Valid Loss: 1.0490
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0548, Valid Loss: 1.0510
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0552, Valid Loss: 1.0489
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/200], Train Loss: 1.0545, Valid Loss: 1.0515
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0544, Valid Loss: 1.0487
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0535, Valid Loss: 1.0511
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0560, Valid Loss: 1.0552
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/200], Train Loss: 1.0533, Valid Loss: 1.0502
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0546, Valid Loss: 1.0512
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0540, Valid Loss: 1.0509
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0546, Valid Loss: 1.0505
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0489429235458374, 1.055228590965271, 1.0505496263504028]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0515737136205037
+
+Trial 27/30
+Current parameters: {'learning_rate': 0.001, 'batch_size': 16, 'epochs': 100, 'hidden_size1': 32, 'hidden_size2': 128, 'hidden_size3': 128, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 0.5205, Valid Loss: 0.6254
+Train Accuracy: 0.8471, Valid Accuracy: 0.7626
+Epoch [100/100], Train Loss: 0.4548, Valid Loss: 0.5626
+Train Accuracy: 0.8542, Valid Accuracy: 0.7951
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.5131, Valid Loss: 0.9754
+Train Accuracy: 0.8189, Valid Accuracy: 0.6211
+Epoch [100/100], Train Loss: 0.4603, Valid Loss: 0.6016
+Train Accuracy: 0.8554, Valid Accuracy: 0.7630
+Sub-trial 3:
+Epoch [50/100], Train Loss: 0.5240, Valid Loss: 0.7188
+Train Accuracy: 0.7030, Valid Accuracy: 0.7305
+Epoch [100/100], Train Loss: 0.4599, Valid Loss: 0.5686
+Train Accuracy: 0.8584, Valid Accuracy: 0.7721
+Accuracies: [0.7950530052185059, 0.7629842162132263, 0.7721181511878967]
+Losses: [0.5626020431518555, 0.6015655994415283, 0.5685890316963196]
+Average Accuracy: 0.7767184575398763
+Average Loss: 0.5775855580965678
+
+Trial 28/30
+Current parameters: {'learning_rate': 0.0001, 'batch_size': 16, 'epochs': 100, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 64, 'no_hidden_layers': 1}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 1.4260, Valid Loss: 3.0973
+Train Accuracy: 0.5860, Valid Accuracy: 0.5174
+Epoch [100/100], Train Loss: 1.1996, Valid Loss: 0.9005
+Train Accuracy: 0.7391, Valid Accuracy: 0.7409
+Sub-trial 2:
+Epoch [50/100], Train Loss: 1.1575, Valid Loss: 1.9197
+Train Accuracy: 0.7624, Valid Accuracy: 0.4600
+Epoch [100/100], Train Loss: 1.0697, Valid Loss: 1.7317
+Train Accuracy: 0.6310, Valid Accuracy: 0.4978
+Sub-trial 3:
+Epoch [50/100], Train Loss: 1.3496, Valid Loss: 2.3558
+Train Accuracy: 0.6855, Valid Accuracy: 0.3547
+Epoch [100/100], Train Loss: 1.1660, Valid Loss: 1.4207
+Train Accuracy: 0.6314, Valid Accuracy: 0.5191
+Accuracies: [0.7409160733222961, 0.49776652455329895, 0.5191012620925903]
+Losses: [0.9005110859870911, 1.7317225933074951, 1.4207243919372559]
+Average Accuracy: 0.5859279533227285
+Average Loss: 1.3509860237439473
+
+Trial 29/30
+Current parameters: {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 100, 'hidden_size1': 128, 'hidden_size2': 64, 'hidden_size3': 16, 'no_hidden_layers': 3}
+Sub-trial 1:
+Epoch [50/100], Train Loss: 0.6857, Valid Loss: 0.7226
+Train Accuracy: 0.7552, Valid Accuracy: 0.6774
+Epoch [100/100], Train Loss: 0.4985, Valid Loss: 0.7004
+Train Accuracy: 0.8617, Valid Accuracy: 0.7218
+Sub-trial 2:
+Epoch [50/100], Train Loss: 0.6394, Valid Loss: 1.2378
+Train Accuracy: 0.7294, Valid Accuracy: 0.5532
+Epoch [100/100], Train Loss: 0.4631, Valid Loss: 0.9406
+Train Accuracy: 0.8554, Valid Accuracy: 0.6370
+Sub-trial 3:
+Epoch [50/100], Train Loss: 0.6535, Valid Loss: 1.3762
+Train Accuracy: 0.7309, Valid Accuracy: 0.4576
+Epoch [100/100], Train Loss: 0.4993, Valid Loss: 0.6388
+Train Accuracy: 0.8328, Valid Accuracy: 0.7554
+Accuracies: [0.7218481302261353, 0.6370424628257751, 0.7553837299346924]
+Losses: [0.7004343867301941, 0.9405530095100403, 0.6388458609580994]
+Average Accuracy: 0.7047581076622009
+Average Loss: 0.7599444190661112
+
+Trial 30/30
+Current parameters: {'learning_rate': 0.1, 'batch_size': 16, 'epochs': 200, 'hidden_size1': 128, 'hidden_size2': 128, 'hidden_size3': 32, 'no_hidden_layers': 2}
+Sub-trial 1:
+Epoch [50/200], Train Loss: 1.0577, Valid Loss: 1.0637
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0587, Valid Loss: 1.0504
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0591, Valid Loss: 1.0529
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0600, Valid Loss: 1.0637
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 2:
+Epoch [50/200], Train Loss: 1.0581, Valid Loss: 1.0591
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0586, Valid Loss: 1.0557
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0587, Valid Loss: 1.0509
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0583, Valid Loss: 1.0534
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Sub-trial 3:
+Epoch [50/200], Train Loss: 1.0606, Valid Loss: 1.0559
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [100/200], Train Loss: 1.0605, Valid Loss: 1.0584
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [150/200], Train Loss: 1.0594, Valid Loss: 1.0503
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Epoch [200/200], Train Loss: 1.0598, Valid Loss: 1.0570
+Train Accuracy: 0.4837, Valid Accuracy: 0.4866
+Accuracies: [0.48663246631622314, 0.48663246631622314, 0.48663246631622314]
+Losses: [1.0636571645736694, 1.0534191131591797, 1.0570014715194702]
+Average Accuracy: 0.48663246631622314
+Average Loss: 1.0580259164174397
+
+Best Validation Accuracy Across Runs:
+Validation Accuracy: 0.8385
+Best Hyperparameters (Accuracy): {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 32, 'hidden_size2': 64, 'hidden_size3': 32, 'no_hidden_layers': 3}
+
+Lowest Validation Loss Across Runs:
+Validation Loss: 0.4823
+Best Hyperparameters (Loss): {'learning_rate': 0.001, 'batch_size': 64, 'epochs': 200, 'hidden_size1': 32, 'hidden_size2': 64, 'hidden_size3': 32, 'no_hidden_layers': 3}

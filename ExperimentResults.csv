@@ -1,0 +1,32 @@
+﻿TestNo,HyperParams,Average Accuracy,Best Accuracy,Worst Accuracy,Average Loss,Best Loss,Worst Loss
+18,{'learning_rate': 0.001; 'batch_size': 64; 'epochs': 200; 'hidden_size1': 32; 'hidden_size2': 64; 'hidden_size3': 32; 'no_hidden_layers': 3},0.838455915,0.887925863,0.757583857,0.482293467,0.398229837,0.621393859
+27,{'learning_rate': 0.001; 'batch_size': 16; 'epochs': 100; 'hidden_size1': 32; 'hidden_size2': 128; 'hidden_size3': 128; 'no_hidden_layers': 2},0.776718458,0.795053005,0.762984216,0.577585558,0.562602043,0.601565599
+4,{'learning_rate': 0.001; 'batch_size': 16; 'epochs': 100; 'hidden_size1': 16; 'hidden_size2': 16; 'hidden_size3': 64; 'no_hidden_layers': 1},0.769606888,0.803720295,0.743382931,0.630896608,0.618537664,0.647820115
+5,{'learning_rate': 0.01; 'batch_size': 64; 'epochs': 300; 'hidden_size1': 32; 'hidden_size2': 64; 'hidden_size3': 16; 'no_hidden_layers': 1},0.730070909,0.774585009,0.647576511,0.703581433,0.643216073513031,0.79273349
+14,{'learning_rate': 0.0001; 'batch_size': 16; 'epochs': 300; 'hidden_size1': 128; 'hidden_size2': 128; 'hidden_size3': 32; 'no_hidden_layers': 2},0.723003765,0.798986614,0.653176904,0.749532203,0.564310789,0.920403898
+29,{'learning_rate': 0.001; 'batch_size': 64; 'epochs': 100; 'hidden_size1': 128; 'hidden_size2': 64; 'hidden_size3': 16; 'no_hidden_layers': 3},0.704758108,0.75538373,0.637042463,0.759944419,0.638845861,0.94055301
+7,{'learning_rate': 0.01; 'batch_size': 64; 'epochs': 200; 'hidden_size1': 64; 'hidden_size2': 128; 'hidden_size3': 16; 'no_hidden_layers': 2},0.665711065,0.765717745,0.4866,0.745958169,0.573038876,1.049391031
+16,{'learning_rate': 0.0001; 'batch_size': 16; 'epochs': 200; 'hidden_size1': 16; 'hidden_size2': 32; 'hidden_size3': 32; 'no_hidden_layers': 3},0.662510832,0.761117399,0.532768846,0.902170022,0.62580061,1.380275369
+25,{'learning_rate': 0.01; 'batch_size': 32; 'epochs': 300; 'hidden_size1': 128; 'hidden_size2': 32; 'hidden_size3': 128; 'no_hidden_layers': 1},0.621863703,0.776385128,0.419827998,0.827153405,0.640661538,1.104996443
+20,{'learning_rate': 0.01; 'batch_size': 64; 'epochs': 100; 'hidden_size1': 128; 'hidden_size2': 32; 'hidden_size3': 64; 'no_hidden_layers': 1},0.613974283,0.68771255,0.4866,0.86388731,0.714164972,1.110203981
+28,{'learning_rate': 0.0001; 'batch_size': 16; 'epochs': 100; 'hidden_size1': 128; 'hidden_size2': 64; 'hidden_size3': 64; 'no_hidden_layers': 1},0.585927953,0.740916073,0.497766525,1.350986024,0.900511086,1.731722593
+19,{'learning_rate': 0.001; 'batch_size': 32; 'epochs': 200; 'hidden_size1': 128; 'hidden_size2': 16; 'hidden_size3': 32; 'no_hidden_layers': 3},0.580483158,0.768184543,0.4866,0.901459634,0.607103407,1.0538
+12,{'learning_rate': 0.01; 'batch_size': 32; 'epochs': 100; 'hidden_size1': 16; 'hidden_size2': 64; 'hidden_size3': 128; 'no_hidden_layers': 2},0.573127111,0.7461164,0.4866,0.904800296,0.616672993,1.04895556
+Baseline,Baseline,0.566066667,0.725,0.4866,0.1958,0.1664,0.2105
+2,{'learning_rate': 0.0001; 'batch_size': 64; 'epochs': 100; 'hidden_size1': 128; 'hidden_size2': 16; 'hidden_size3': 64; 'no_hidden_layers': 1},0.560948531,0.693512917,0.468164563,1.514244517,0.750504255,2.066240311
+8,{'learning_rate': 0.0001; 'batch_size': 64; 'epochs': 100; 'hidden_size1': 32; 'hidden_size2': 16; 'hidden_size3': 32; 'no_hidden_layers': 2},0.502855758,0.579371989,0.354423642,1.238530755,0.808662593,1.977109671
+1,{'learning_rate': 0.1; 'batch_size': 16; 'epochs': 200; 'hidden_size1': 128; 'hidden_size2': 64; 'hidden_size3': 128; 'no_hidden_layers': 2},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+3,{'learning_rate': 0.01; 'batch_size': 16; 'epochs': 300; 'hidden_size1': 16; 'hidden_size2': 32; 'hidden_size3': 16; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+6,{'learning_rate': 0.1; 'batch_size': 16; 'epochs': 100; 'hidden_size1': 16; 'hidden_size2': 64; 'hidden_size3': 32; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+9,{'learning_rate': 0.01; 'batch_size': 16; 'epochs': 100; 'hidden_size1': 16; 'hidden_size2': 128; 'hidden_size3': 64; 'no_hidden_layers': 1},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+10,{'learning_rate': 0.01; 'batch_size': 32; 'epochs': 300; 'hidden_size1': 128; 'hidden_size2': 64; 'hidden_size3': 16; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+11,{'learning_rate': 0.1; 'batch_size': 64; 'epochs': 200; 'hidden_size1': 128; 'hidden_size2': 64; 'hidden_size3': 16; 'no_hidden_layers': 2},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+15,{'learning_rate': 0.01; 'batch_size': 16; 'epochs': 300; 'hidden_size1': 64; 'hidden_size2': 32; 'hidden_size3': 128; 'no_hidden_layers': 2},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+17,{'learning_rate': 0.01; 'batch_size': 16; 'epochs': 300; 'hidden_size1': 128; 'hidden_size2': 16; 'hidden_size3': 16; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+21,{'learning_rate': 0.01; 'batch_size': 64; 'epochs': 300; 'hidden_size1': 16; 'hidden_size2': 64; 'hidden_size3': 32; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+22,{'learning_rate': 0.1; 'batch_size': 16; 'epochs': 100; 'hidden_size1': 64; 'hidden_size2': 16; 'hidden_size3': 64; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+23,{'learning_rate': 0.01; 'batch_size': 32; 'epochs': 300; 'hidden_size1': 64; 'hidden_size2': 128; 'hidden_size3': 64; 'no_hidden_layers': 2},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+24,{'learning_rate': 0.01; 'batch_size': 16; 'epochs': 300; 'hidden_size1': 16; 'hidden_size2': 64; 'hidden_size3': 16; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+26,{'learning_rate': 0.1; 'batch_size': 64; 'epochs': 200; 'hidden_size1': 128; 'hidden_size2': 32; 'hidden_size3': 128; 'no_hidden_layers': 3},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+30,{'learning_rate': 0.1; 'batch_size': 16; 'epochs': 200; 'hidden_size1': 128; 'hidden_size2': 128; 'hidden_size3': 32; 'no_hidden_layers': 2},0.4866,0.4866,0.4866,1.0538,1.0538,1.0538
+13,{'learning_rate': 0.001; 'batch_size': 64; 'epochs': 100; 'hidden_size1': 64; 'hidden_size2': 128; 'hidden_size3': 64; 'no_hidden_layers': 1},0.393359562,0.476898462,0.265151024,5.023838361,2.588691235,8.035344124
