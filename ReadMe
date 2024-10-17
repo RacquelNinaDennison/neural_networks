@@ -1,0 +1,7 @@
+#Replicating Experiments:
+You can replicate the hyperparameter tuning experiment using the validationaccuracy.ipynb notebook, along with the TrainingEncoded.csv, ValidationEncoded.csv, and TestingEncoded.csv datasets.
+The raw output log of this experiment can be found in HPTuningNotes1.txt
+
+You can replicate the dropout experiment using the DropoutTesting.ipynb notebook with the same datasets as before. 
+
+The graphs are generated using visualiser.py and dropout_visualiser.py respectively
