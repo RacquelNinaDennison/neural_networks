@@ -1,4 +1,6 @@
 #Replicating Experiments:
+TrainingEncoded.csv, ValidationEncoded.csv and TestingEncoded.csv were created from Training.csv, Validation.csv, and Testing.csv by running EncodingDataset.R
+EncodingDataset.R applied one-hot encoding to the Location and GameGenre inputs.
 You can replicate the hyperparameter tuning experiment using the validationaccuracy.ipynb notebook, along with the TrainingEncoded.csv, ValidationEncoded.csv, and TestingEncoded.csv datasets.
 The raw output log of this experiment can be found in HPTuningNotes1.txt
 
